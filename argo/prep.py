@@ -14,12 +14,12 @@ import numpy as np
 # Path to the NetCDF files here, this path must be the same
 # as 'tpath' in the get_data.py or get_data.R script.  After running
 # prep.py, the contents of tpath can be deleted.
-tpath = Path("/scratch/stats_dept_root/stats_dept1/kshedden/argo/python")
+tpath = Path("/Users/liangqi/Library/Mobile Documents/com~apple~CloudDocs/Stats-504/argo")
 dpath = tpath / Path("argo/raw")
 
 # Store the files produced by this script here.  This must
 # agree with the path set in the 'read.py' script.
-qpath = Path("/home/kshedden/data/Teaching/argo/python")
+qpath = Path("/Users/liangqi/Library/Mobile Documents/com~apple~CloudDocs/Stats-504/argo")
 os.makedirs(qpath, exist_ok=True)
 
 # Retain only profiles that span this range of pressures (these are dbar

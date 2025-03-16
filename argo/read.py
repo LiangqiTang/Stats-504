@@ -8,7 +8,7 @@ import numpy as np
 
 # This must match the variable "qpath" in the 'prep.py'
 # script.
-qpath = Path("/home/kshedden/data/Teaching/argo/python")
+qpath = Path("/Users/liangqi/Library/Mobile Documents/com~apple~CloudDocs/Stats-504/argo")
 
 # Latitude and longitude
 lat = np.loadtxt(qpath / "lat.csv.gz", skiprows=1)
