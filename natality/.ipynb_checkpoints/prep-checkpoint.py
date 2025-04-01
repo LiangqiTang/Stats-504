@@ -6,7 +6,7 @@ import os, gzip
 from pathlib import Path
 
 # Path to the data files
-pa = Path("/home/kshedden/data/Teaching/natality")
+pa = Path("/Users/liangqi/Library/Mobile Documents/com~apple~CloudDocs/Stats-504/natality/data")
 
 # Create a long form version of the birth data.
 dl = []
